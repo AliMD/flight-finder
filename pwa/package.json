@@ -34,7 +34,7 @@
     "@alwatr/logger": "^0.24.0",
     "@alwatr/router": "^0.24.0",
     "@alwatr/fetch": "^0.24.0",
-    "@alwatr/signal": "^0.24.0",
+    "@alwatr/signal": "^0.24.1",
     "@ionic/core": "^6.3.8",
     "@webcomponents/webcomponentsjs": "^2.7.0",
     "lit": "^2.4.1"
