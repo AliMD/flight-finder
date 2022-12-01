@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@alwatr/element@^0.24.0":
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/@alwatr/element/-/element-0.24.0.tgz#f5956140b7252d1aed4035aa739795c8ec7c5bfb"
-  integrity sha512-G/gPSxQouRa88FyyNOpz0pSYKc2S0XvZ6T/U8IAhJLdtiUdmS+gcRijtLLfcsW56NeiCkxKz+8TDQR0yVywIVQ==
+"@alwatr/element@^0.24.0", "@alwatr/element@^0.24.1":
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/@alwatr/element/-/element-0.24.1.tgz#3b9675fb4b81952cddf08393c714697c34e6f56a"
+  integrity sha512-iOmOgeQMAlgjyaqf14rEmd9Bb3nIRr45qHp5GelFMOq6OcpF6cMl9tyNblow48mwRLmZg7CdeJUGVvZ+KZaRow==
   dependencies:
-    "@alwatr/logger" "^0.24.0"
+    "@alwatr/logger" "^0.24.1"
     lit "~2.4.1"
     tslib "~2.4.1"
 
