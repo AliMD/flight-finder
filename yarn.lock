@@ -28,10 +28,10 @@
     lit "~2.4.1"
     tslib "~2.4.1"
 
-"@alwatr/logger@^0.24.0":
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.24.0.tgz#94e2404906e0536f3e2860c732ed8c187a5d1de4"
-  integrity sha512-YLLa7Z1lyyYVHDUZYo/yFO6TOdNLNwNc/UVpAQpI4/IRwOyCxk47t4Y/nW4qaMK4XFen011qSkb3pE8JsGAk2w==
+"@alwatr/logger@^0.24.0", "@alwatr/logger@^0.24.1":
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.24.1.tgz#796300ee9c7005a6534f7f124bc177e14241d52c"
+  integrity sha512-co3sqGIJ3gm1ILvNE5JI65q/FhF+YnX+OgET0mbRZOa4uvJAZANwip72ozKJlUOCeaIR+BgZWPOV26u4bIMw+g==
   dependencies:
     tslib "~2.4.1"
 
