@@ -19,6 +19,14 @@
     "@alwatr/logger" "^0.24.1"
     tslib "~2.4.1"
 
+"@alwatr/fetch@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/fetch/-/fetch-0.25.0.tgz#8dd5c57a43bff0b32df06574cc543d981a98875b"
+  integrity sha512-uNdLVwwE9h5mcHYVZ4UUZh7kVFpiGt8ld/GjRRmuzGPCcw1AOqkubSu/66CV2ngjoQd3HrmWKS7SKyaElw1yWA==
+  dependencies:
+    "@alwatr/logger" "^0.25.0"
+    tslib "~2.4.1"
+
 "@alwatr/i18n@~0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/i18n/-/i18n-0.24.1.tgz#ad77f457d7bf3aaaf066b1d85c3531331980137a"
@@ -43,6 +51,13 @@
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.24.1.tgz#796300ee9c7005a6534f7f124bc177e14241d52c"
   integrity sha512-co3sqGIJ3gm1ILvNE5JI65q/FhF+YnX+OgET0mbRZOa4uvJAZANwip72ozKJlUOCeaIR+BgZWPOV26u4bIMw+g==
+  dependencies:
+    tslib "~2.4.1"
+
+"@alwatr/logger@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.25.0.tgz#bef722659a29cb4f5f253fbfb4a50a42fd422119"
+  integrity sha512-MyCwTBZ5cmPaHgzdkQKEqU2IqpMBNaX8KMORyE60kyBHsmUPC/H4r8iTEtX43XTquLxT4o4THuIWqkQXytck/A==
   dependencies:
     tslib "~2.4.1"
 
@@ -80,17 +95,27 @@
     "@alwatr/logger" "^0.24.1"
     tslib "~2.4.1"
 
-"@alwatr/storage-client@~0.24.1":
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/@alwatr/storage-client/-/storage-client-0.24.1.tgz#c5d6ce24e62fc68e77ebfc3ec080793de80fd485"
-  integrity sha512-FOiXew/7O6BeDSG5YibX15Iho7u+LmF9n8FuQgMNnlhwLaJr9LJL9xelhWSQcbW2r26a3c3pACnyu9xkg2844w==
+"@alwatr/storage-client@~0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/storage-client/-/storage-client-0.25.0.tgz#20714a6fb473e416f10512b32d0e78997a457fd3"
+  integrity sha512-6A7f0spqRU3FlBvCDX4Xkjh8Ykg/BwoeEpo/qynztV9BRFpyu8GhavcpcpO8tkXMGrDdyhAiWLgmkwKzsFUsyw==
   dependencies:
-    "@alwatr/fetch" "^0.24.1"
-    "@alwatr/logger" "^0.24.1"
-    "@alwatr/storage-engine" "^0.24.1"
+    "@alwatr/fetch" "^0.25.0"
+    "@alwatr/logger" "^0.25.0"
+    "@alwatr/storage-engine" "^0.25.0"
     tslib "~2.4.1"
 
-"@alwatr/storage-engine@^0.24.1", "@alwatr/storage-engine@~0.24.1":
+"@alwatr/storage-engine@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/storage-engine/-/storage-engine-0.25.0.tgz#04a2bbe0e42642b8ea4965449eb5e4b94a5fe9ca"
+  integrity sha512-/Iut/AQFgFIu5jVN/JJtQ7b/AouKPKZd/V5jF7USIcSdE9WpUioIqw9sD4hUCIJ9yt2vqlDfP4K/HGD67PIeNg==
+  dependencies:
+    "@alwatr/fetch" "^0.25.0"
+    "@alwatr/logger" "^0.25.0"
+    exit-hook "~3.1.2"
+    tslib "~2.4.1"
+
+"@alwatr/storage-engine@~0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/storage-engine/-/storage-engine-0.24.1.tgz#cd7a81a8ee8b7c8971e4f3d62ce96e64b63487c9"
   integrity sha512-iM15WPyz62sNToBfEsGqUb/rtMvuTN5jifJOuxgc/6TTKZ41G/nH/zgFBhb1ZvN1oB5seoSMLJ3amBJOs4S3ig==
