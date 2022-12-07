@@ -19,6 +19,14 @@
     "@alwatr/logger" "^0.24.1"
     tslib "~2.4.1"
 
+"@alwatr/fetch@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/fetch/-/fetch-0.25.0.tgz#8dd5c57a43bff0b32df06574cc543d981a98875b"
+  integrity sha512-uNdLVwwE9h5mcHYVZ4UUZh7kVFpiGt8ld/GjRRmuzGPCcw1AOqkubSu/66CV2ngjoQd3HrmWKS7SKyaElw1yWA==
+  dependencies:
+    "@alwatr/logger" "^0.25.0"
+    tslib "~2.4.1"
+
 "@alwatr/i18n@~0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/i18n/-/i18n-0.24.1.tgz#ad77f457d7bf3aaaf066b1d85c3531331980137a"
@@ -46,21 +54,28 @@
   dependencies:
     tslib "~2.4.1"
 
-"@alwatr/math@^0.24.1":
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/@alwatr/math/-/math-0.24.1.tgz#8572dde666bdd478dbf16ccae9be8d1b5b55b50c"
-  integrity sha512-ore8sKgWvlTmVcTGFVT+x9O4F68eoi8+Jz5+GxUf1cUFSR2iaOZo1LAKhYbq2xepLj9sRis/DuIxqd2FnDQWSg==
+"@alwatr/logger@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.25.0.tgz#bef722659a29cb4f5f253fbfb4a50a42fd422119"
+  integrity sha512-MyCwTBZ5cmPaHgzdkQKEqU2IqpMBNaX8KMORyE60kyBHsmUPC/H4r8iTEtX43XTquLxT4o4THuIWqkQXytck/A==
   dependencies:
     tslib "~2.4.1"
 
-"@alwatr/nano-server@~0.24.1":
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/@alwatr/nano-server/-/nano-server-0.24.1.tgz#0122217e8ad84e154cb92e3caeb06b29bcad3bec"
-  integrity sha512-1yPYFziCTLCpiehpmqkyL03P45pfCILr0bsra8emGA0XW1K1fiSuT4mdWnO575vgB8kRZwc1kHOgny+POk1Ang==
+"@alwatr/math@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/math/-/math-0.25.0.tgz#e7b1808879af0f45d8d44288b07e3de401730e32"
+  integrity sha512-VgSPaelaVElNVgl3elP5wImaVXjy6l0+yDgZ7M0UCMwFCbbQBbeDjZwXUvSyR7QptbDSt7XSdfm0F+OZQVJU0A==
   dependencies:
-    "@alwatr/fetch" "^0.24.1"
-    "@alwatr/logger" "^0.24.1"
-    "@alwatr/math" "^0.24.1"
+    tslib "~2.4.1"
+
+"@alwatr/nano-server@~0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/nano-server/-/nano-server-0.25.0.tgz#86552500382e9930ec6bf0a3a932fb55573f548f"
+  integrity sha512-qvJ9wAmsTwOdLORaq4/7Ep7T2ZFcjloCaVYvRYFx55jB2qGstrQnWsAvffYgxSrnNx46+Jl7lnImDISCAg5oxQ==
+  dependencies:
+    "@alwatr/fetch" "^0.25.0"
+    "@alwatr/logger" "^0.25.0"
+    "@alwatr/math" "^0.25.0"
     tslib "~2.4.1"
 
 "@alwatr/router@~0.24.1":
