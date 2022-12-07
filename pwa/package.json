@@ -31,7 +31,7 @@
     "watch:ts": "yarn build:ts --watch --preserveWatchOutput"
   },
   "dependencies": {
-    "@alwatr/element": "~0.24.1",
+    "@alwatr/element": "~0.25.0",
     "@alwatr/fetch": "~0.24.1",
     "@alwatr/i18n": "~0.24.1",
     "@alwatr/icon": "~0.24.1",
