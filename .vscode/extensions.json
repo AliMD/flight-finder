@@ -1,18 +1,18 @@
 {
   "recommendations": [
-    "bierner.lit-html",
     "christian-kohler.path-intellisense",
-    "DavidAnson.vscode-markdownlint",
+    "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
-    "GitHub.vscode-pull-request-github",
     "humao.rest-client",
+    "irongeek.vscode-env",
     "jgclark.vscode-todo-highlight",
-    "ms-vscode.vscode-typescript-next",
+    "redhat.vscode-yaml",
     "runem.lit-plugin",
+    "william-voyek.vscode-nginx",
     "streetsidesoftware.code-spell-checker-persian",
     "streetsidesoftware.code-spell-checker",
-    "xabikos.javascriptsnippets"
+    "stylelint.vscode-stylelint",
   ]
 }
