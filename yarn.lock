@@ -2,12 +2,21 @@
 # yarn lockfile v1
 
 
-"@alwatr/element@^0.24.1", "@alwatr/element@~0.24.1":
+"@alwatr/element@^0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/element/-/element-0.24.1.tgz#3b9675fb4b81952cddf08393c714697c34e6f56a"
   integrity sha512-iOmOgeQMAlgjyaqf14rEmd9Bb3nIRr45qHp5GelFMOq6OcpF6cMl9tyNblow48mwRLmZg7CdeJUGVvZ+KZaRow==
   dependencies:
     "@alwatr/logger" "^0.24.1"
+    lit "~2.4.1"
+    tslib "~2.4.1"
+
+"@alwatr/element@~0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/element/-/element-0.25.0.tgz#473ebc1e700c0783a01c45a21a91b0ce97c24380"
+  integrity sha512-Uc07giTNQFyIr7IUo0Zf/D3cT+0ugeYBNUS5rnKdBrhtj47MrbhcOxwX0pEdYTKFKL3wgnSvYLLUdKcILQ5ojA==
+  dependencies:
+    "@alwatr/logger" "^0.25.0"
     lit "~2.4.1"
     tslib "~2.4.1"
 
@@ -43,6 +52,13 @@
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.24.1.tgz#796300ee9c7005a6534f7f124bc177e14241d52c"
   integrity sha512-co3sqGIJ3gm1ILvNE5JI65q/FhF+YnX+OgET0mbRZOa4uvJAZANwip72ozKJlUOCeaIR+BgZWPOV26u4bIMw+g==
+  dependencies:
+    tslib "~2.4.1"
+
+"@alwatr/logger@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.25.0.tgz#bef722659a29cb4f5f253fbfb4a50a42fd422119"
+  integrity sha512-MyCwTBZ5cmPaHgzdkQKEqU2IqpMBNaX8KMORyE60kyBHsmUPC/H4r8iTEtX43XTquLxT4o4THuIWqkQXytck/A==
   dependencies:
     tslib "~2.4.1"
 
