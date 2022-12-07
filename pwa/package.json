@@ -37,7 +37,7 @@
     "@alwatr/icon": "~0.24.1",
     "@alwatr/logger": "~0.24.1",
     "@alwatr/router": "~0.24.1",
-    "@alwatr/signal": "~0.24.1",
+    "@alwatr/signal": "~0.25.0",
     "@ionic/core": "~6.3.9",
     "lit": "~2.4.1"
   },

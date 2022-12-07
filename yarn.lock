@@ -46,6 +46,13 @@
   dependencies:
     tslib "~2.4.1"
 
+"@alwatr/logger@^0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/logger/-/logger-0.25.0.tgz#bef722659a29cb4f5f253fbfb4a50a42fd422119"
+  integrity sha512-MyCwTBZ5cmPaHgzdkQKEqU2IqpMBNaX8KMORyE60kyBHsmUPC/H4r8iTEtX43XTquLxT4o4THuIWqkQXytck/A==
+  dependencies:
+    tslib "~2.4.1"
+
 "@alwatr/math@^0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/math/-/math-0.24.1.tgz#8572dde666bdd478dbf16ccae9be8d1b5b55b50c"
@@ -72,12 +79,20 @@
     "@alwatr/signal" "^0.24.1"
     tslib "~2.4.1"
 
-"@alwatr/signal@^0.24.1", "@alwatr/signal@~0.24.1":
+"@alwatr/signal@^0.24.1":
   version "0.24.1"
   resolved "https://registry.yarnpkg.com/@alwatr/signal/-/signal-0.24.1.tgz#7fb5c6ea14373a10a84c98e6f32df54117014647"
   integrity sha512-ilVxd36fClxKTjmb/O5ieJOiARY4tapc6jmnrcYzdjviEljQQJRe+MeaUxEXzUt7Hd0rgE3e00zQrSOehxohUA==
   dependencies:
     "@alwatr/logger" "^0.24.1"
+    tslib "~2.4.1"
+
+"@alwatr/signal@~0.25.0":
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/@alwatr/signal/-/signal-0.25.0.tgz#fd8437b5faceb2bdf69276aaa47cf25b568292ca"
+  integrity sha512-pI2sGyGZbRNH0quH2d4+ZV4bO3jo95yWqSviMGBbc2PzpJUA9gY//rdQCxiLhzAreOj21UVuX/7sovGxmo8Uyg==
+  dependencies:
+    "@alwatr/logger" "^0.25.0"
     tslib "~2.4.1"
 
 "@alwatr/storage-client@~0.24.1":
